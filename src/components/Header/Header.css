@@ -1,0 +1,29 @@
+.menu {
+    background-color: var(--bege);
+    padding: 0px 70px;
+    display: grid;
+    place-items: center;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+    z-index: 50;
+    grid-area: header;
+}
+
+.navMenu {
+    width: 100%;
+    max-width: 1440px;
+}
+
+.navMenu ul {
+    list-style: none;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navMenu ul .logo {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-weight: 400;
+    font-size: 36px;
+}

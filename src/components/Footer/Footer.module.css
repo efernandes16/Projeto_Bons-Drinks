@@ -1,0 +1,8 @@
+.footer {
+    display: grid;
+    place-items: center;
+    background-color: var(--bege);
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--preto);
+}

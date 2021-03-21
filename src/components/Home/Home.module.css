@@ -1,0 +1,15 @@
+.mainContainer {
+    background-image: url(../../img/bg-bons-drinks.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainLogo {
+    font-size: 120px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Bilbo Swash Caps', cursive;
+    color: #fffdf8;
+    text-shadow: 2px 2px 2px 2px rgba(85, 84, 84, 0.5);
+}

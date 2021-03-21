@@ -1,17 +1,14 @@
 import './App.css';
-import Navbar from './Componentes/Navbar';
-import HomePage from './Componentes/HomePage';
-import Formulario from './Componentes/Formulario';
-import Footer from './Componentes/Footer';
+import Header from './components/Header';
+import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HomePage />
-      <Formulario />
+      <Header />
+      <Home />
       <Footer />
-      
     </div>
   );
 }
