@@ -1,0 +1,13 @@
+.buttonContato {
+    background-color: #5c0511;
+    color: var(--bege);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    align-items: flex-end;
+    /* display: block;
+    margin: 0 auto; */
+}

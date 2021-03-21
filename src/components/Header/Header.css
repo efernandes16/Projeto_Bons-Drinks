@@ -9,20 +9,27 @@
 }
 
 .navMenu {
-    width: 100%;
-    max-width: 1440px;
-}
-
-.navMenu ul {
     list-style: none;
     font-size: 26px;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1440px;
 }
 
-.navMenu ul .logo {
+.navMenu a, .navMenu a:visited {
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.navMenu a:hover {
+    color: var(--laranja);
+    transition: .4s;
+}
+
+.navMenu .logo {
     font-family: "Bilbo Swash Caps", cursive;
     font-weight: 400;
     font-size: 36px;
