@@ -3,8 +3,10 @@ import Header from './components/Header';
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
-import Button from './components/Button/Button';
-import Forms from './components/Formulario/Forms';
+import ContatoForms from './components/ContatoForms/ContatoForms';
+import BuscaDrinkApi from './components/Api/BuscaDrinkApi';
+import NossoTime from './components/NossoTime/NossoTime';
+import SobreNos from './components/SobreNos/SobreNos'
 
 function App() {
   return (
@@ -19,21 +21,20 @@ function App() {
             </Route>
 
             <Route path="/drinks">
-              <h1>Rota de Drinks</h1>
+              <BuscaDrinkApi />
             </Route>
 
             <Route path="/sobre-nos">
-              <h1>Rota Sobre Nós</h1>
+              <SobreNos />
             </Route>
 
             <Route path="/nosso-time">
-              <h1>Rota Nosso Time</h1>
+              <NossoTime />
             </Route>
 
 
             <Route path="/contato">
-              <Forms />
-              <h1>Rota de contato</h1>
+              <ContatoForms />
             </Route>
 
           </Switch>

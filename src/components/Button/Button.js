@@ -1,11 +1,14 @@
-import React from 'react'
+import {React, useState} from 'react'
 import './Button.css'
 
-function Button(props) {
-    const type = props.type
-    const content = props.content
+function Button({estilo, noClick, titulo}) {
+
     return (
-        <button className="buttonContato" type={type}>{content}</button>
+        <div>
+            <button className={estilo} onClick={()=>{
+                noClick()
+            }}>{titulo}</button>
+        </div>
     )
 }
 

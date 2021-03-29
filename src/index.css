@@ -2,15 +2,30 @@
   --bege: #fffbef;
   --preto: #101010;
   --laranja: #f9ae48;
+  --logo-font: "Bilbo Swash Caps",cursive;
+  --title-font: "Open Sans Condensed",sans-serif;
+  --body-font: "Open Sans",sans-serif;
+  --titles-font: "Open Sans Condensed",sans-serif;
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   margin: 0;
   font-family: "Open Sans Condensed", sans-serif;
+  font-family: var(--body-font);
+  font-size: 18px;
+  color: #101010;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

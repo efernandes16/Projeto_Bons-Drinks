@@ -1,10 +1,11 @@
-import React from 'react'
+import {React, useState} from 'react'
+import './Input.css';
 
-function Input({htmlFor, type, name, content}) {
+function Input({htmlFor, type, name, content, noChange}) {
     return (
         <>
-           <label htmlFor={htmlFor}>{content}</label> 
-           <input type={type} id={htmlFor} name={name} ></input>
+           <label htmlFor={htmlFor} className="labelInput">{content}</label> 
+           <input type={type} name={name} onChange={noChange} className="input"></input>
         </>
     )
 }

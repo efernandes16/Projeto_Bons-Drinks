@@ -1,0 +1,68 @@
+.divBuscaDrink {
+    display: grid;
+    grid-template-areas: "cabecalho" "conteudo-Drink";
+    grid-template-rows: auto;
+}
+
+.cabecalhoDrink {
+    grid-area: cabecalho;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tituloBuscaDrink {
+    text-align: center;
+    color: #5c0511;
+    margin: 5px;
+}
+
+.campoBuscaDrink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 400px;
+}
+
+#inputInput {
+    height: 40px;
+    width: 150px;
+    margin: 20px;
+}
+
+.botao {
+    background-color: #5c0511;
+    color: var(--bege);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    align-items: flex-end;
+    display: block;
+    margin: 5px auto;
+}
+
+.conteudoDrink {
+    grid-area: conteudo-Drink;
+    display: inline-block;
+}
+
+.conteudoDrink h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.divImagemDrink {
+    text-align: center;
+}
+
+.imagemDrink {
+    width: 20%;
+}
+
+.conteudoDrink p {
+    text-align: center;
+}
